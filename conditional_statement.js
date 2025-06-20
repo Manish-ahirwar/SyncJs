@@ -138,19 +138,87 @@
   F for < 60 */
 
 
+let marks = 58;
+let i = marks;
+
+if( i >= 90){
+  console.log('A');
+  
+} else if(i >= 80){
+  console.log('B');
+  
+}else if( i >= 70){
+  console.log('C');
+  
+}else if(i >= 60){
+  console.log('D');
+  
+}else{
+  console.log('F');
+  
+}
+
+
 // 7)  Vowel or Consonant
 //  Take a character input and check whether it is a vowel or consonant.
+
+let char = "h"
+
+if( char === "a" || char === "e" || char === "i" || char === "o" || char === "u"){
+  console.log(char,"is a Vowel");
+  
+}else{
+  console.log(char,"is a Consonant");
+  
+}
 
 
 // 8)  Check Divisible by 5 and 11
 // Take a number and check if it's divisible by both 5 and 11.
 
+let num = 55;
+
+if( num % 5 === 0 && num % 11 === 0){
+  console.log("Divisible by both 5 and 11.");
+  
+}else{
+  console.log("Not divisible by both");
+  
+}
+
 
 // 9) Check for Alphabet
 // Check whether the given character is an alphabet or not.
 
+let character = "r"
+
+if(character >= "A" && character <= "Z" || character >= "a" && character <= "z"){
+  console.log("this is an alphabet");
+  
+}else{
+  console.log("this is not an alphabet");
+  
+}
+
 // 10) Simple Calculator
 // Take two numbers and an operator (+, -, *, /) and perform the operation using conditional statements.
+
+let num1 = 10;
+let num2 = 5;
+let operator = "*";
+
+if (operator === "+") {
+  console.log(num1 + num2);
+} else if (operator === "-") {
+  console.log(num1 - num2);
+} else if (operator === "*") {
+  console.log(num1 * num2);
+} else if (operator === "/") {
+  console.log(num1 / num2);
+} else {
+  console.log("Invalid operator");
+}
+
 
 
 
